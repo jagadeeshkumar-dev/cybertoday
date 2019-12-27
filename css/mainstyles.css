@@ -1,0 +1,92 @@
+body{
+
+	font-family: 'Manjari', sans-serif;
+    line-height: normal;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+  
+}
+ul{
+
+	width: 80%;
+	
+	
+}
+ul li{
+
+ list-style: none;
+ display: inline-block;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ padding-left: 10px;
+ padding-right: 10px;
+  
+}
+ul li:hover{ 
+  background-color: #0000;
+
+
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+
+}
+#footer{
+
+	font-size: 15px;
+    padding: 5px;
+     
+     color:#eeeeee;
+     background-color: #211f22;
+     text-align: left;
+     align-items: baseline;
+}
+#readmore{
+  float: right;
+  background-color: #DAF7A6;
+  margin-bottom: 3px;
+
+}
+#postimage{
+
+  padding: 5px;
+}
+#postcontent{
+  padding: 5px;
+}
+
+#postheading{
+  font-size: 25px;
+}
+
+#details
+#post{
+font-size: 100px;
+font-weight: bold;
+
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #17a2b8;
+  color: white;
+  border: 1px solid #17a2b8;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}

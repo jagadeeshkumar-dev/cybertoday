@@ -1,0 +1,38 @@
+body{
+  background-color: #668db1;
+    font-family: 'Manjari', sans-serif;
+    line-height: normal;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.col-sm-10{
+  background-color: #fff4f4;
+}
+#sidemenu a{
+  color: black;
+}
+#sidemenu .active a{
+     color: #ffffff;
+     background-color: #0b3a4e;
+     font-weight: bold;
+}
+#sidemenu a:hover{
+
+  color: #ffffff;
+  background-color: #1ab394;
+  font-weight: bold;
+  display: block;
+}
+#footer{
+ font-size: 18px;
+  padding: 10px;
+  border-top: 100px;
+  color:#eeeeee;
+  background-color: #211f22;
+  text-align: center;
+  align-items: baseline;
+}
